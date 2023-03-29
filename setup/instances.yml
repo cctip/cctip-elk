@@ -1,43 +1,21 @@
 instances:
-  - name: elasticsearch
+  - name: es01
     dns:
-      - elasticsearch
+      - es01
       - localhost
     ip:
-      - "0.0.0.0"
-      - "127.0.0.1"
-  - name: kibana
+      - 127.0.0.1
+
+  - name: es02
     dns:
-      - kibana
+      - es02
       - localhost
     ip:
-      - "0.0.0.0"
-      - "127.0.0.1"
-  - name: logstash
+      - 127.0.0.1
+
+  - name: es03
     dns:
-      - logstash
+      - es03
       - localhost
     ip:
-      - "0.0.0.0"
-      - "127.0.0.1"
-  - name: filebeat
-    dns:
-      - filebeat
-      - localhost
-    ip:
-      - "0.0.0.0"
-      - "127.0.0.1"
-  - name: metricbeat
-    dns:
-      - metricbeat
-      - localhost
-    ip:
-      - "0.0.0.0"
-      - "127.0.0.1"
-  - name: packetbeat
-    dns:
-      - packetbeat
-      - localhost
-    ip:
-      - "0.0.0.0"
-      - "127.0.0.1"
+      - 127.0.0.1
